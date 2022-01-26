@@ -31,8 +31,8 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'thor', '>= 0.20', '< 2.0'
   gem.add_runtime_dependency 'webrick', '~> 1.3'
   gem.add_runtime_dependency "rainbow", "~> 3.0"
-  gem.add_runtime_dependency "pact-support"
-  gem.add_runtime_dependency "pact-mock_service"
+  gem.add_runtime_dependency "hs-pact-support", "~> 1.17.1"
+  gem.add_runtime_dependency "hs-pact-mock_service", "~> 3.9.2"
 
   gem.add_development_dependency 'rake', '~> 13.0'
   gem.add_development_dependency 'webmock', '~> 3.0'
@@ -42,6 +42,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'faraday', '~> 0.13'
   gem.add_development_dependency 'conventional-changelog', '~> 1.3'
   gem.add_development_dependency 'bump', '~> 0.5'
-  gem.add_development_dependency 'pact-message', '~> 0.8'
   gem.add_development_dependency 'rspec-its', '~> 1.3'
 end

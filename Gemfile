@@ -10,8 +10,8 @@ group :local_development do
   gem "pry-byebug"
 end
 
-gem 'pact-support', git: "https://github.com/joinhandshake/pact-support", ref: '0fa46bdaf27382a9eb86c9dfbcbca44d7b5e742c'
-gem "pact-mock_service", git: "https://github.com/joinhandshake/pact-mock_service", ref: "1696b14465316dff565142714bf5443907208bde"
+gem 'hs-pact-support', "~> 1.17.1"
+gem "hs-pact-mock_service", "~> 3.9.2"
 
 
 # Specify your gem's dependencies in pact.gemspec
